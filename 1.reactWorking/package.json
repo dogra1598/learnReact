@@ -1,0 +1,11 @@
+{
+  "name": "1.reactworking",
+  "version": "1.0.0",
+  "description": "Internal working of react",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Vishal Dogra",
+  "license": "ISC"
+}
