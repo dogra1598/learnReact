@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./style.css" />
-        <title>Namaste React</title>
+        <title>React Working</title>
     </head>
     <body>
         <h1>above root div</h1>
@@ -23,7 +23,7 @@
              we can also use react with an existing application
         -->
 
-        <div id="root2"></div>
+        <!-- <div id="root2"></div> -->
 
         <!-- <script>
             const heading = document.createElement("h1");
@@ -43,15 +43,19 @@
              so if we add our custom stript before react cdn scripts then the code will not work
         -->
 
-        <script
+        <!-- using cdn to bring react and react-dom into our project is not a preferred way
+             becasuse network calls are costly operation
+             also when version of react changes we manually need to change the cdn url
+        -->
+        <!-- <script
             crossorigin
             src="https://unpkg.com/react@18/umd/react.development.js"
         ></script>
         <script
             crossorigin
             src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-        ></script>
+        ></script> -->
 
-        <script src="./app.js"></script>
+        <script type="module" src="./app.js"></script>
     </body>
 </html>

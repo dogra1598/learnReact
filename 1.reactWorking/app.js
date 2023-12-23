@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 // creating and rendering a single element using react
 // const heading = React.createElement("h1", { id: "heading", xyz: "abc" }, "Hello react!");
 
@@ -41,16 +44,16 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(parent);
 
-// 
+//
 
-const heading = React.createElement(
-    "h1",
-    { id: "heading", xyz: "abc" },
-    "Hello react!"
-);
+// const heading = React.createElement(
+//     "h1",
+//     { id: "heading", xyz: "abc" },
+//     "Hello react!"
+// );
 
-console.log(heading); // React element object not HTML element
+// console.log(heading); // React element object not HTML element
 
-const root2 = ReactDOM.createRoot(document.getElementById("root2"));
+// const root2 = ReactDOM.createRoot(document.getElementById("root2"));
 
-root2.render(heading);
+// root2.render(heading);
