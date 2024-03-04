@@ -12,6 +12,9 @@
 // --------------------------------------------------------------------------------------------------------------------------------------
 
 // Using React
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 /*
 	element creation is handled by react
 	rendering of elements created by react is handled by reactDOM
@@ -30,8 +33,6 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading); // this render method is responsible for converting the react element into HTML element and render it on the screen
 */
 
-// --------------------------------------------------------------------------------------------------------------------------------------
-
 const parent = React.createElement(
 	"div",
 	{ id: "parent" },
@@ -43,3 +44,5 @@ const parent = React.createElement(
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(parent);
+
+// --------------------------------------------------------------------------------------------------------------------------------------
